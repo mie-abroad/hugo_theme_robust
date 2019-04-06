@@ -137,8 +137,8 @@ aside.f {
 }
 
 .logo a {
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 4rem;
+  line-height: 4rem;
   font-weight: 700;
   color: transparent;
   font-family: 'Poiret One', cursive;
@@ -146,7 +146,7 @@ aside.f {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 280px 210px;
+  background-size: 280px 130px;
 }
 
 .articles {
