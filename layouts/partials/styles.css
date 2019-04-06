@@ -137,10 +137,16 @@ aside.f {
 }
 
 .logo a {
-  font-size: 1.4rem;
-  line-height: 1.5rem;
+  font-size: 3rem;
+  line-height: 3rem;
   font-weight: 700;
-  color: #333;
+  color: transparent;
+  font-family: 'Poiret One', cursive;
+  background-image: url({{ .Site.BaseURL }}images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 280px 210px;
 }
 
 .articles {
@@ -702,4 +708,3 @@ section.footer > header a {
 }
 {{ end }}
 {{ end }}
-
