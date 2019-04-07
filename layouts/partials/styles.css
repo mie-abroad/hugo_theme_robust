@@ -149,6 +149,21 @@ aside.f {
   background-size: 280px 130px;
 }
 
+@media (max-width: 768px) {
+  .logo a {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+    color: transparent;
+    font-family: 'Poiret One', cursive;
+    background-image: url({{ .Site.BaseURL }}images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 220px 90px;
+  }
+}
+
 .articles {
   margin: -1rem 0;
   margin-bottom: 1rem;
