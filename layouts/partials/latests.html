@@ -1,8 +1,8 @@
 <section class="sidebar">
-  <header>LATESTS</header>
+  <header>最新記事</header>
   <div>
     <div class="articles sm">
-      {{ range $i, $p := (first 10 .Site.RegularPages) }}
+      {{ range $i, $p := (first 5 .Site.RegularPages) }}
       {{ .Render "li_sm" }}
       {{ end }}
     </div>

@@ -1,0 +1,11 @@
+<section class="sidebar">
+  <header><span style="color: rgb(230, 150, 0);">人気記事</span></header>
+  <div>
+    <div class="articles sm">
+      {{ $q := slice "PIA" }}
+      {{ range $i, $p := (first 5 (.Site.RegularPages.RelatedTo ( keyVals "tags" "top5"))) }}
+      {{ .Render "li_sm" }}
+      {{ end }}
+    </div>
+  </div>
+</section>

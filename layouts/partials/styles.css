@@ -512,6 +512,13 @@ section.footer > header a {
   line-height: 1.75rem;
 }
 
+.related {
+  font-size: .8rem;
+  margin: .4rem 0;
+  padding: 0.5rem 0;
+  overflow: hidden;
+}
+
 .paging {
   text-align: center;
   padding: 1rem 0;

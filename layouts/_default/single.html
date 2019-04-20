@@ -11,9 +11,8 @@
 {{ define "main" }}
 <div class="mrow">
   <div class="mcol c8">
-
     {{ .Render "summary" }}
-
+    {{ partial "related.html" . }}
     <div class="adj">
       <div class="mrow">
         {{ with .PrevInSection }}
